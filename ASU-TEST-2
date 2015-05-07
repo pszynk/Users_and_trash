@@ -1,0 +1,581 @@
+From MAILER-DAEMON Wed Mar 14 21:58:12 2012
+Date: 14 Mar 2012 21:58:12 +0100
+From: Mail System Internal Data <MAILER-DAEMON@mion.elka.pw.edu.pl>
+Subject: DON'T DELETE THIS MESSAGE -- FOLDER INTERNAL DATA
+Message-ID: <1331758692@mion.elka.pw.edu.pl>
+X-IMAP: 1331758676 0000000004
+Status: RO
+
+This text is part of the internal format of your mail folder, and is not
+a real message.  It is created automatically by the mail system software.
+If deleted, important folder data will be lost, and it will be re-created
+with the data reset to initial values.
+
+From WDEC.A@elka.pw.edu.pl Sat Mar 10 19:53:11 2012
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5]:51922 "EHLO
+	higgs.elka.pw.edu.pl" rhost-flags-OK-OK-OK-OK) by mion.elka.pw.edu.pl
+	with ESMTP id S1806927Ab2CJSxK (ORCPT
+	<rfc822;pszynkie@mion.elka.pw.edu.pl>);
+	Sat, 10 Mar 2012 19:53:10 +0100
+Received: from hadron.elka.pw.edu.pl ([194.29.160.27]:38442 "EHLO localhost")
+	by higgs.elka.pw.edu.pl with ESMTP id S27100Ab2CJSxH (ORCPT
+	<rfc822;aliberad@mion.elka.pw.edu.pl> + 26 others);
+	Sat, 10 Mar 2012 19:53:07 +0100
+X-Virus-Scanned: amavisd-new at elka.pw.edu.pl
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5])
+	by localhost (hadron.elka.pw.edu.pl [194.29.160.27]) (amavisd-new, port 2510)
+	with ESMTP id D7+QsCWIKPTx; Sat, 10 Mar 2012 19:53:01 +0100 (CET)
+Received: from top.elka.pw.edu.pl ([194.29.160.11]:60239 "EHLO
+	top.elka.pw.edu.pl") by higgs.elka.pw.edu.pl with ESMTP
+	id S150641Ab2CJSvZ (ORCPT <rfc822;W.Kaczorowski@stud.elka.pw.edu.pl>
+	+ 30 others); Sat, 10 Mar 2012 19:51:25 +0100
+Received: from top (localhost [127.0.0.1])
+	by top.elka.pw.edu.pl (Postfix) with SMTP id 48B7A4BB42;
+	Sat, 10 Mar 2012 19:51:25 +0100 (CET)
+Delivered-To: WDEC.A@top.elka.pw.edu.pl
+Content-Type: text/plain; charset="iso-8859-2"
+Message-Id: <20120310185125.0E6304BB41@top.elka.pw.edu.pl>
+Date:	Sat, 10 Mar 2012 19:51:25 +0100 (CET)
+From:	A.Krzemienowski@elka.pw.edu.pl
+Subject: [WDEC.A] =?iso-8859-2?Q?Symulacja?=
+Sender:	<przedmioty@elka.pw.edu.pl>
+Originator: <WDEC.A@top.elka.pw.edu.pl>
+Reply-To: <WDEC.A@elka.pw.edu.pl>
+Errors-To: <WDEC.A-errors@elka.pw.edu.pl>
+To:	Multiple recipients of list <WDEC.A@top.elka.pw.edu.pl>
+Content-Transfer-Encoding: quoted-printable
+Return-Path: <WDEC.A@elka.pw.edu.pl>
+X-Envelope-To: <pszynkie@mion.elka.pw.edu.pl> (uid 65534)
+X-Orcpt: rfc822;pszynkie@mion.elka.pw.edu.pl
+Original-Recipient: rfc822;pszynkie@mion.elka.pw.edu.pl
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1
+
+Drodzy Pa=F1stwo,
+
+W najbli=BFszy wtorek i czwartek pracujemy z symulatorem gry rynkowej zai=
+mplementowanym przez Waszego koleg=EA Pana Mateusza Szewczyka. Przed labo=
+ratorium prosz=EA o zapoznanie si=EA z materia=B3ami udost=EApnionymi na =
+stronie przedmiotu ( https://studia.elka.pw.edu.pl/priv/12L/WDEC.A/ ). S=B1=
+ to:
+
+1. Opis jak przygotowa=E6 si=EA do laboratorium i zarys zadania projektow=
+ego (lab3_symulacja.pdf).=20
+2. Dokumentacja u=BFytkownika symulatora (lab3_sgr.pdf).
+
+Pozdrawiam
+Adam Krzemienowski
+
+From P.Wawrzynski@elka.pw.edu.pl Mon Mar 12 14:01:43 2012
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5]:58224 "EHLO
+	higgs.elka.pw.edu.pl" rhost-flags-OK-OK-OK-OK) by mion.elka.pw.edu.pl
+	with ESMTP id S205731Ab2CLNBn (ORCPT
+	<rfc822;pszynkie@mion.elka.pw.edu.pl>);
+	Mon, 12 Mar 2012 14:01:43 +0100
+Received: from hadron2.elka.pw.edu.pl ([192.168.27.246]:49104 "EHLO localhost")
+	by higgs.elka.pw.edu.pl with ESMTP id S25687Ab2CLNBl convert rfc822-to-quoted-printable
+	(ORCPT <rfc822;ljendrze@mion.elka.pw.edu.pl> + 4 others);
+	Mon, 12 Mar 2012 14:01:41 +0100
+X-Virus-Scanned: amavisd-new at elka.pw.edu.pl
+Received: from elektron.elka.pw.edu.pl ([194.29.160.2])
+	by localhost (hadron2.elka.pw.edu.pl [192.168.27.246]) (amavisd-new, port 2510)
+	with ESMTP id NvybjyPz3lU0; Mon, 12 Mar 2012 14:01:35 +0100 (CET)
+Received: from localhost ([127.0.0.1]:48151 "EHLO staff.elka.pw.edu.pl" ident:
+	"www" smtp-auth: "pwawrzyn" TLS-CIPHER: <none> TLS-PEER-CN1: <none>
+	rhost-flags-OK-OK-OK-FAIL) by elektron.elka.pw.edu.pl with ESMTPA
+	id S4790246Ab2CLNAl (ORCPT
+	<rfc822;P.Szynkiewicz@stud.elka.pw.edu.pl> + 6 others);
+	Mon, 12 Mar 2012 14:00:41 +0100
+X-Comment: RFC 2476 MSA function at localhost logged sender identity as: pwawrzyn
+Received: from 192.168.30.38
+        (SquirrelMail authenticated user pwawrzyn)
+        by staff.elka.pw.edu.pl with HTTP;
+        Mon, 12 Mar 2012 14:00:41 +0100 (CET)
+Message-ID: <62213.192.168.30.38.1331557241.squirrel@staff.elka.pw.edu.pl>
+Date:	Mon, 12 Mar 2012 14:00:41 +0100 (CET)
+Subject: Seminarium ZBUM 13 marca 
+From:	"Pawel Wawrzynski" <p.wawrzynski@elka.pw.edu.pl>
+To:	"Rogowiec Adam" <ad.rogowiec@wp.pl>,
+	Jendrzejek =?iso-8859-2?Q?=A3ukasz?= 
+	<L.Jendrzejek@stud.elka.pw.edu.pl>,
+	Gawkowski =?iso-8859-2?Q?Micha=B3?= 
+	<M.Gawkowski@stud.elka.pw.edu.pl>,
+	"Barszczewski Alek" <alek.barszczewski@gmail.com>,
+	=?iso-8859-2?Q?Paw=B3ot_Jakub?= <J.Pawlot@stud.elka.pw.edu.pl>,
+	"Krej Karolina" <k.krej@stud.elka.pw.edu.pl>,
+	Szynkiewicz =?iso-8859-2?Q?Pawe=B3?= 
+	<P.Szynkiewicz@stud.elka.pw.edu.pl>
+Reply-To: p.wawrzynski@elka.pw.edu.pl
+User-Agent: SquirrelMail/1.4.10a
+MIME-Version: 1.0
+Content-Type:	text/plain; charset=iso-8859-2
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+X-Priority: 3 (Normal)
+Importance: Normal
+Return-Path: <P.Wawrzynski@elka.pw.edu.pl>
+X-Envelope-To: <pszynkie@mion.elka.pw.edu.pl> (uid 65534)
+X-Orcpt: rfc822;pszynkie@mion.elka.pw.edu.pl
+Original-Recipient: rfc822;pszynkie@mion.elka.pw.edu.pl
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 2
+
+Szanowni Pa=F1stwo,
+Zapraszam na kolejne seminarium 13 marca kt=F3re wyg=B3osi Pan Maciej
+Michalak i b=EAdzie na temat "Optymalizacja sekwencji i protoko=B3u
+syntezy DNA".
+Zapraszam do zapoznania si=EA z planem seminari=F3w na najbli=BFsze 2 t=
+ygodnie:
+http://zbum.ia.pw.edu.pl/node/33
+Pzdr,
+PW
+
+From elka-info-bounces@listy.samorzad.pw.edu.pl Tue Mar 13 05:27:32 2012
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5]:60690 "EHLO
+	higgs.elka.pw.edu.pl" rhost-flags-OK-OK-OK-OK) by mion.elka.pw.edu.pl
+	with ESMTP id S205805Ab2CMEZc (ORCPT
+	<rfc822;pszynkie@mion.elka.pw.edu.pl>);
+	Tue, 13 Mar 2012 05:25:32 +0100
+Received: from hadron.elka.pw.edu.pl ([194.29.160.27]:46772 "EHLO localhost")
+	by higgs.elka.pw.edu.pl with ESMTP id S26022Ab2CMEZH (ORCPT
+	<rfc822;murban2@mion.elka.pw.edu.pl> + 49 others);
+	Tue, 13 Mar 2012 05:25:07 +0100
+X-Virus-Scanned: amavisd-new at elka.pw.edu.pl
+Authentication-Results:	hadron.elka.pw.edu.pl (amavisd-new); dkim=softfail
+	(fail, message has been altered) header.i=@gmail.com
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5])
+	by localhost (hadron.elka.pw.edu.pl [194.29.160.27]) (amavisd-new, port 2510)
+	with ESMTP id Hu7lW0l2ptnp; Tue, 13 Mar 2012 05:25:05 +0100 (CET)
+Received: from sam.samorzad.pw.edu.pl ([194.29.137.72]:51992 "EHLO
+	sam.samorzad.pw.edu.pl") by higgs.elka.pw.edu.pl with ESMTP
+	id S150815Ab2CMEVH (ORCPT <rfc822;ptrojano@mion.elka.pw.edu.pl>
+	+ 49 others); Tue, 13 Mar 2012 05:21:07 +0100
+Received: from sam.samorzad.pw.edu.pl (localhost.localdomain [127.0.0.1])
+	by sam.samorzad.pw.edu.pl (Postfix) with ESMTP id C8DDD220261;
+	Tue, 13 Mar 2012 05:20:50 +0100 (CET)
+X-Original-To: elka-info@listy.samorzad.pw.edu.pl
+Delivered-To: elka-info@listy.samorzad.pw.edu.pl
+MIME-version: 1.0
+X-Virus-Scanned: amavisd-new at macpro.coi.pw.edu.pl
+DKIM-Signature:	v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com;
+	s=20120113;
+	h=mime-version:sender:from:date:x-google-sender-auth:message-id
+	:subject:to:content-type;
+	bh=7sz1ZSrJsMD+XewvkQPOYWr+/mspfwytt8aunqn19IM=;
+	b=bgWT6Tf7AWke2eL3mz5WO/RBQ+5yP4hFRt413cy8duIIKDEV6GuviKNBf1LcA8gHT4
+	JKpFkXiwyK54G1D9OLDkV+yTXw9iIOKZaw38N+/n65liUqymGm4YP0udY2kL23VGIsQv
+	+qGxt95CjlSmyrdvM+9m4AXPbaSkcjJSzs5D5oa4aC/I6jOuocqR3IS/RNKAL6/3VLBK
+	I3KhxpFwym0AwnImwBo/T8DOrsD3g58UWTXULimM3eupM6/ClZJeQLzJC1OLMs8ypM89
+	X5/L+asrMPqFnxMesIREPHz/SL5opi4yUKX0wd3hcjnsGAh+coomLv7xWHmIVv7CVG33
+	x7Tw==
+Date:	Tue, 13 Mar 2012 05:06:27 +0100
+X-Google-Sender-Auth: s4j6og-e4P5Sk_NhMvbCU8A7HeY
+To:	elka-info@samorzad.pw.edu.pl
+X-Mailman-Approved-At: Tue, 13 Mar 2012 05:20:32 +0100
+Message-ID: <mailman.2911.1331612433.1890.elka-info@listy.samorzad.pw.edu.pl>
+From:	Lista informacyjna WRS EiTI <elka-info@listy.samorzad.pw.edu.pl>
+Subject: [Elka-info] =?iso-8859-2?q?Aktualno=B6ci_Wydzia=B3owe_2012-03-13?=
+X-BeenThere: elka-info@listy.samorzad.pw.edu.pl
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: elka-info-owner@samorzad.pw.edu.pl
+List-Id: Lista informacyjna WRS EiTI <elka-info.listy.samorzad.pw.edu.pl>
+List-Unsubscribe: <http://listy.samorzad.pw.edu.pl/mailman/options/elka-info>, 
+	<mailto:elka-info-request@listy.samorzad.pw.edu.pl?subject=unsubscribe>
+List-Archive: <http://listy.samorzad.pw.edu.pl/mailman/private/elka-info>
+List-Post: <mailto:elka-info@listy.samorzad.pw.edu.pl>
+List-Help: <mailto:elka-info-request@listy.samorzad.pw.edu.pl?subject=help>
+List-Subscribe:	<http://listy.samorzad.pw.edu.pl/mailman/listinfo/elka-info>, 
+	<mailto:elka-info-request@listy.samorzad.pw.edu.pl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0889355796=="
+Sender:	elka-info-bounces@listy.samorzad.pw.edu.pl
+Errors-To: elka-info-bounces@listy.samorzad.pw.edu.pl
+Return-Path: <elka-info-bounces@listy.samorzad.pw.edu.pl>
+X-Envelope-To: <pszynkie@mion.elka.pw.edu.pl> (uid 65534)
+X-Orcpt: rfc822;pszynkie@mion.elka.pw.edu.pl
+Original-Recipient: rfc822;pszynkie@mion.elka.pw.edu.pl
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 3
+
+
+--===============0889355796==
+Content-type: multipart/alternative;
+ boundary="Boundary_(ID_/pGXOSTDJS/tLIyhZ9qYMg)"
+
+
+--Boundary_(ID_/pGXOSTDJS/tLIyhZ9qYMg)
+Content-type: text/plain; charset=ISO-8859-2
+Content-transfer-encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Aktualno=B6ci Wydzia=B3owe 2012-03-13
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Spis tre=B6ci
+-----------
+* Og=B3oszenie moderatora
+* ELKA REAL FIFA
+* Bilety na 48. Warsaw Blues Night - Otis Taylor
+* Poprawki b=B3=EAdnych wpis=F3w do Katalogu IX Targ=F3w Praktyk i Pracy
+* Sp=B3ywy kajakowe - zalicz WF!
+* Kurs ta=F1ca towarzyskiego w Amplitronie
+* Spotkanie z A.T. Kearney
+* Weekendowa wycieczka do Bratys=B3awy i Wiednia
+
+Og=B3oszenie moderatora
+---------------------
+Drodzy Czytelnicy,
+codziennie dok=B3adamy stara=F1, =BFeby informacje kt=F3re dostajecie za
+po=B6rednictwem listy by=B3y dla Was jak najbardziej u=BFyteczne.
+Podczas redagowania listy brane s=B1 pod uwag=EA m.in. takie kryteria jak:
+- brak spamu!
+- jak najbardziej kompletne informacje o bie=BF=B1cych wydarzeniach
+- ca=B3o=B6=E6 podana w mo=BFliwie zwi=EAz=B3ej i czytelnej formie
+
+Je=B6li Twoim zdaniem powy=BFsza lista powinna zosta=E6 uzupe=B3niona o dod=
+atkowe
+za=B3o=BFenia, lub obecna forma nie spe=B3nia Twoich oczekiwa=F1, mo=BFesz =
+podzieli=E6
+si=EA swoimi uwagami pod adresem:
+elka-info@listy.samorzad.pw.edu.pl
+Pod ten adres mo=BFecie te=BF przesy=B3a=E6 informacje, kt=F3re waszym zdan=
+iem
+powinny trafi=E6 do jak najwi=EAkszej liczby student=F3w Naszego Wydzia=B3u=
+.
+
+Jednocze=B6nie przypominamy o pozosta=B3ych =BCr=F3d=B3ach aktualno=B6ci Wy=
+dzia=B3owych i
+nie tylko:
+WWW WRS: http://www.samorzad.elka.pw.edu.pl/aktualnosci.html
+FB: http://www.facebook.com/wrseitis
+WWW SSPW: http://www.sspw.pl
+WWW EiTI: http://www.elka.pw.edu.pl
+
+ELKA REAL FIFA
+--------------
+Serdecznie zapraszamy wszystkich mi=B3o=B6nik=F3w pi=B3ki no=BFnej na rozgr=
+ywki
+sportowe organizowane przez WRS EiTI. Znajdzie zakurzone korki na strychu i
+zaczynajcie trenowa=E6, gdy=BF poziom zaskoczy niejednego. Zapraszamy stude=
+nt=F3w
+wydzia=B3u EiTI ale nie TYLKO! W ka=BFdej dru=BFynie mo=BFe by=E6 4 zawodni=
+k=F3w z
+innych wydzia=B3=F3w PW. Szukajcie, dogadujcie si=EA i kompletujcie dru=BFy=
+ny.
+Ilo=B6=E6 miejsc ograniczona, decyduje kolejno=B6=E6 zg=B3osze=F1. UWAGA me=
+cze b=EAd=B1
+rozgrywane nie na jakim=B6 b=B3ocie czyt. Syrenka, tylko na profesjonalnie
+przygotowanym Orliku przy Wawelskiej 3.
+Turniej odb=EAdzie si=EA 31 marca oraz 1 kwietnia 2012.
+
+Zapisy trwaj=B1 do 26 marca w WRS EiTI pok.46a
+Przyno=B6cie wype=B3niony druk oraz wpisowe 40z=B3/dru=BFyna.
+
+Druk do zapis=F3w:
+http://www.samorzad.elka.pw.edu.pl/uploads/dokumenty/zgloszenie%20wstepne%2=
+0dru%C5%BCyny.pdf
+Szczeg=F3=B3owy Regulamin:
+http://www.samorzad.elka.pw.edu.pl/uploads/dokumenty/Regulamin%20Real%20Fif=
+a.pdf
+Gramy Fair Play!
+
+Bilety na 48. Warsaw Blues Night - Otis Taylor
+----------------------------------------------
+Nowy semestr dopiero si=EA rozpocz=B1=B3 wi=EAc warszawska scena bluesowa s=
+tartuje
+z najwy=BFszego pu=B3apu. Ju=BF 18 marca w Klubie Hybrydy wyst=B1pi Otis Ta=
+ylor,
+kt=F3rego wspiera=E6 b=EAdzie polska formacja JJL Trio. Dla student=F3w
+Politechniki Warszawskiej przygotowali=B6my specjaln=B1 pul=EA bilet=F3w!
+Bilety dla student=F3w PW w cenie 20z=B3 dost=EApne jedynie w WRS Mechatron=
+iki
+(p.22).
+Bilety dost=EApne jedynie do 16.03.2012!
+
+Szczeg=F3=B3y: http://tinyurl.com/7anzuyp
+
+Poprawki b=B3=EAdnych wpis=F3w do Katalogu IX Targ=F3w Praktyk i Pracy
+--------------------------------------------------------------
+Prawid=B3owe teksty informacji o przesi=EAbiorstwach Business Management
+Software Sp. z o.o., Scapaflow Consulting sp. z.o.o. i TouK sp. z o.o.
+s.k.a. mo=BFna odnale=BC=E6 pod adresem: http://tinyurl.com/78zucv8
+
+Sp=B3ywy kajakowe - zalicz WF!
+----------------------------
+Zosta=B3o jeszcze kilka wolnych miejsc!
+Stowarzyszenie Kajakowe WA=AFKA zaprasza! Zaj=EAcia WF w formie sp=B3yw=F3w
+kajakowych po malowniczych rzekach Mazowsza. Zapisy przed=B3u=BFone do 20 m=
+arca!
+Terminy, ceny i pozosta=B3e informacje na stronie: http://wazka.waw.pl
+
+Kurs ta=F1ca towarzyskiego w Amplitronie
+--------------------------------------
+W ka=BFdy poniedzia=B3ek pocz=B1wszy od 26 marca:
+Grupa pocz=B1tkuj=B1ca - godz. 18:45
+Grupa zaawansowana - godz. 20:15
+Przewidzianych jest 10 zaj=EA=E6.
+
+Koszt za kurs: 250z=B3 od pary i 150z=B3 od osoby (przy braku pary).
+Ca=B3o=B6=E6 p=B3atna z g=F3ry na pocz=B1tku kursu.
+Wszelkie pytania mo=BFna kierowa=E6 do Paw=B3a Dembickiego (krolik@amp.pw.e=
+du.pl).
+
+Spotkanie z A.T. Kearney
+------------------------
+Poznaj doradztwo strategiczne. Otw=F3rz drzwi do kariery!
+Drogi studencie,
+Zaliczy=B3e=B6 analiz=EA matematyczn=B1?
+My=B6lisz, =BFe nic Ci=EA ju=BF nie zaskoczy?
+Sprawd=BC si=EA w doradztwie strategicznym!
+
+Spotkaj si=EA z konsultantami A.T. Kearney. Poznaj nasz=B1 bran=BF=EA, char=
+akter
+oraz atmosfer=EA pracy. Spr=F3buj swoich si=B3 w trakcie pr=F3bnego testu
+rekrutacyjnego.
+Podejmij wyzwanie i wygraj iPad.
+WST=CAP WOLNY !
+
+Zapraszamy!
+20 marca
+Godz. 14.15 - 16.00
+sala 107, Wydzia=B3 MiNI (nowy gmach)
+ul. Koszykowa 75
+(wej=B6cie od gmachu g=B3=F3wnego)
+
+Dowiedz si=EA wi=EAcej na www.atkearney.com
+
+Weekendowa wycieczka do Bratys=B3awy i Wiednia
+--------------------------------------------
+Niezale=BFne Zrzeszenie Student=F3w zaprasza na niezapomnian=B1, weekendow=
+=B1
+wypraw=EA do dw=F3ch stolic europejskich - Bratys=B3awy i Wiednia. Zobacz
+fantastyczne zabytki pami=EAtaj=B1ce r=F3d Habsburg=F3w, baw si=EA w znanym=
+ klubie i
+napij si=EA s=B3ynnego, s=B3owackiego piwa.
+
+Termin: 19-22.04.2012
+Miejsce: Bratys=B3awa, Wiede=F1
+Sk=B3adka: 375 z=B3 (dla student=F3w PW i os=F3b spoza uczelni)
+Wi=EAcej informacji: www.nzspw.pl/dwiestolice
+
+--Boundary_(ID_/pGXOSTDJS/tLIyhZ9qYMg)
+Content-type: text/html; charset=ISO-8859-2
+Content-transfer-encoding: quoted-printable
+
+<div><div>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div><div>Aktualno=B6ci Wydzia=
+=B3owe 2012-03-13</div><div>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</div><div><br>=
+</div><div>Spis tre=B6ci</div><div>-----------</div><div>* Og=B3oszenie mod=
+eratora</div>
+
+<div>* ELKA REAL FIFA</div><div>* Bilety na 48. Warsaw Blues Night - Otis T=
+aylor</div><div>* Poprawki b=B3=EAdnych wpis=F3w do Katalogu IX Targ=F3w Pr=
+aktyk i Pracy</div><div>* Sp=B3ywy kajakowe &ndash; zalicz WF!</div><div>* =
+Kurs ta=F1ca towarzyskiego w Amplitronie</div>
+
+<div>* Spotkanie z A.T. Kearney</div><div>* Weekendowa wycieczka do Bratys=
+=B3awy i Wiednia</div><div><br></div><div>Og=B3oszenie moderatora</div><div=
+>---------------------</div><div>Drodzy Czytelnicy,</div><div>codziennie do=
+k=B3adamy stara=F1, =BFeby informacje kt=F3re dostajecie za po=B6rednictwem=
+ listy by=B3y dla Was jak najbardziej u=BFyteczne.</div>
+
+<div>Podczas redagowania listy brane s=B1 pod uwag=EA <a href=3D"http://m.i=
+n">m.in</a>. takie kryteria jak:</div><div>- brak spamu!</div><div>- jak na=
+jbardziej kompletne informacje o bie=BF=B1cych wydarzeniach</div><div>- ca=
+=B3o=B6=E6 podana w mo=BFliwie zwi=EAz=B3ej i czytelnej formie</div>
+
+<div><br></div><div>Je=B6li Twoim zdaniem powy=BFsza lista powinna zosta=E6=
+ uzupe=B3niona o dodatkowe za=B3o=BFenia, lub obecna forma nie spe=B3nia Tw=
+oich oczekiwa=F1, mo=BFesz podzieli=E6 si=EA swoimi uwagami pod adresem:</d=
+iv><div><a href=3D"mailto:elka-info@listy.samorzad.pw.edu.pl">elka-info@lis=
+ty.samorzad.pw.edu.pl</a></div>
+
+<div>Pod ten adres mo=BFecie te=BF przesy=B3a=E6 informacje, kt=F3re waszym=
+ zdaniem powinny trafi=E6 do jak najwi=EAkszej liczby student=F3w Naszego W=
+ydzia=B3u.</div><div><br></div><div>Jednocze=B6nie przypominamy o pozosta=
+=B3ych =BCr=F3d=B3ach aktualno=B6ci Wydzia=B3owych i nie tylko:</div>
+
+<div>WWW WRS: <a href=3D"http://www.samorzad.elka.pw.edu.pl/aktualnosci.htm=
+l">http://www.samorzad.elka.pw.edu.pl/aktualnosci.html</a></div><div>FB: <a=
+ href=3D"http://www.facebook.com/wrseitis">http://www.facebook.com/wrseitis=
+</a></div>
+
+<div>WWW SSPW: <a href=3D"http://www.sspw.pl">http://www.sspw.pl</a></div><=
+div>WWW EiTI: <a href=3D"http://www.elka.pw.edu.pl">http://www.elka.pw.edu.=
+pl</a></div><div><br></div><div>ELKA REAL FIFA</div><div>--------------</di=
+v>
+
+<div>Serdecznie zapraszamy wszystkich mi=B3o=B6nik=F3w pi=B3ki no=BFnej na =
+rozgrywki sportowe organizowane przez WRS EiTI. Znajdzie zakurzone korki na=
+ strychu i zaczynajcie trenowa=E6, gdy=BF poziom zaskoczy niejednego. Zapra=
+szamy student=F3w wydzia=B3u EiTI ale nie TYLKO! W ka=BFdej dru=BFynie mo=
+=BFe by=E6 4 zawodnik=F3w z innych wydzia=B3=F3w PW. Szukajcie, dogadujcie =
+si=EA i kompletujcie dru=BFyny. Ilo=B6=E6 miejsc ograniczona, decyduje kole=
+jno=B6=E6 zg=B3osze=F1. UWAGA mecze b=EAd=B1 rozgrywane nie na jakim=B6 b=
+=B3ocie czyt. Syrenka, tylko na profesjonalnie przygotowanym Orliku przy Wa=
+welskiej 3.</div>
+
+<div>Turniej odb=EAdzie si=EA 31 marca oraz 1 kwietnia 2012.</div><div><br>=
+</div><div>Zapisy trwaj=B1 do 26 marca w WRS EiTI pok.46a</div><div>Przyno=
+=B6cie wype=B3niony druk oraz wpisowe 40z=B3/dru=BFyna.</div><div><br></div=
+><div>Druk do zapis=F3w:</div>
+
+<div><a href=3D"http://www.samorzad.elka.pw.edu.pl/uploads/dokumenty/zglosz=
+enie%20wstepne%20dru%C5%BCyny.pdf">http://www.samorzad.elka.pw.edu.pl/uploa=
+ds/dokumenty/zgloszenie%20wstepne%20dru%C5%BCyny.pdf</a></div><div>Szczeg=
+=F3=B3owy Regulamin:</div>
+
+<div><a href=3D"http://www.samorzad.elka.pw.edu.pl/uploads/dokumenty/Regula=
+min%20Real%20Fifa.pdf">http://www.samorzad.elka.pw.edu.pl/uploads/dokumenty=
+/Regulamin%20Real%20Fifa.pdf</a></div><div>Gramy Fair Play!</div><div><br>
+
+</div><div>Bilety na 48. Warsaw Blues Night - Otis Taylor</div><div>-------=
+---------------------------------------</div><div>Nowy semestr dopiero si=
+=EA rozpocz=B1=B3 wi=EAc warszawska scena bluesowa startuje z najwy=BFszego=
+ pu=B3apu. Ju=BF 18 marca w Klubie Hybrydy wyst=B1pi Otis Taylor, kt=F3rego=
+ wspiera=E6 b=EAdzie polska formacja JJL Trio. Dla student=F3w Politechniki=
+ Warszawskiej przygotowali=B6my specjaln=B1 pul=EA bilet=F3w!</div>
+
+<div>Bilety dla student=F3w PW w cenie 20z=B3 dost=EApne jedynie w WRS Mech=
+atroniki (p.22).</div><div>Bilety dost=EApne jedynie do 16.03.2012!</div><d=
+iv><br></div><div>Szczeg=F3=B3y: <a href=3D"http://tinyurl.com/7anzuyp">htt=
+p://tinyurl.com/7anzuyp</a></div>
+
+<div><br></div><div>Poprawki b=B3=EAdnych wpis=F3w do Katalogu IX Targ=F3w =
+Praktyk i Pracy</div><div>-------------------------------------------------=
+-------------</div><div>Prawid=B3owe teksty informacji o przesi=EAbiorstwac=
+h Business Management</div>
+
+<div>Software Sp. z o.o., Scapaflow Consulting sp. z.o.o. i TouK sp. z o.o.=
+</div><div>s.k.a. mo=BFna odnale=BC=E6 pod adresem: <a href=3D"http://tinyu=
+rl.com/78zucv8">http://tinyurl.com/78zucv8</a></div><div><br></div><div>Sp=
+=B3ywy kajakowe &ndash; zalicz WF!</div>
+
+<div>----------------------------</div><div>Zosta=B3o jeszcze kilka wolnych=
+ miejsc!</div><div>Stowarzyszenie Kajakowe WA=AFKA zaprasza! Zaj=EAcia WF w=
+ formie sp=B3yw=F3w kajakowych po malowniczych rzekach Mazowsza. Zapisy prz=
+ed=B3u=BFone do 20 marca!</div>
+
+<div>Terminy, ceny i pozosta=B3e informacje na stronie: <a href=3D"http://w=
+azka.waw.pl">http://wazka.waw.pl</a></div><div><br></div><div>Kurs ta=F1ca =
+towarzyskiego w Amplitronie</div><div>-------------------------------------=
+-</div>
+
+<div>W ka=BFdy poniedzia=B3ek pocz=B1wszy od 26 marca:</div><div>Grupa pocz=
+=B1tkuj=B1ca - godz. 18:45</div><div>Grupa zaawansowana - godz. 20:15</div>=
+<div>Przewidzianych jest 10 zaj=EA=E6.</div><div><br></div><div>Koszt za ku=
+rs: 250z=B3 od pary i 150z=B3 od osoby (przy braku pary).</div>
+
+<div>Ca=B3o=B6=E6 p=B3atna z g=F3ry na pocz=B1tku kursu.</div><div>Wszelkie=
+ pytania mo=BFna kierowa=E6 do Paw=B3a Dembickiego (<a href=3D"mailto:kroli=
+k@amp.pw.edu.pl">krolik@amp.pw.edu.pl</a>).</div><div><br></div><div>Spotka=
+nie z A.T. Kearney</div>
+
+<div>------------------------</div><div>Poznaj doradztwo strategiczne. Otw=
+=F3rz drzwi do kariery!</div><div>Drogi studencie,</div><div>Zaliczy=B3e=B6=
+ analiz=EA matematyczn=B1?</div><div>My=B6lisz, =BFe nic Ci=EA ju=BF nie za=
+skoczy?&nbsp;</div>
+<div>
+Sprawd=BC si=EA w doradztwie strategicznym!</div><div>&nbsp;</div><div>Spot=
+kaj si=EA z konsultantami A.T. Kearney. Poznaj nasz=B1 bran=BF=EA, charakte=
+r oraz atmosfer=EA pracy. Spr=F3buj swoich si=B3 w trakcie pr=F3bnego testu=
+ rekrutacyjnego.</div>
+
+<div>Podejmij wyzwanie i wygraj iPad.</div><div>WST=CAP WOLNY !</div><div><=
+br></div><div>Zapraszamy!</div><div>20 marca</div><div>Godz. 14.15 &ndash; =
+16.00</div><div>sala 107, Wydzia=B3 MiNI (nowy gmach)</div><div>ul. Koszyko=
+wa 75</div>
+
+<div>(wej=B6cie od gmachu g=B3=F3wnego)</div><div>&nbsp;</div><div>Dowiedz =
+si=EA wi=EAcej na <a href=3D"http://www.atkearney.com">www.atkearney.com</a=
+></div><div><br></div><div>Weekendowa wycieczka do Bratys=B3awy i Wiednia</=
+div><div>--------------------------------------------</div>
+
+<div>Niezale=BFne Zrzeszenie Student=F3w zaprasza na niezapomnian=B1, weeke=
+ndow=B1 wypraw=EA do dw=F3ch stolic europejskich - Bratys=B3awy i Wiednia. =
+Zobacz fantastyczne zabytki pami=EAtaj=B1ce r=F3d Habsburg=F3w, baw si=EA w=
+ znanym klubie i napij si=EA s=B3ynnego, s=B3owackiego piwa.</div>
+
+<div><br></div><div>Termin: 19-22.04.2012</div><div>Miejsce: Bratys=B3awa, =
+Wiede=F1</div><div>Sk=B3adka: 375 z=B3 (dla student=F3w PW i os=F3b spoza u=
+czelni)</div><div>Wi=EAcej informacji: <a href=3D"http://www.nzspw.pl/dwies=
+tolice">www.nzspw.pl/dwiestolice</a></div>
+
+</div>
+
+--Boundary_(ID_/pGXOSTDJS/tLIyhZ9qYMg)--
+
+--===============0889355796==
+Content-Type: text/plain; charset="iso-8859-2"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+-- =
+
+Lista informacyjna WRS EiTI
+Zmiana ustawie=F1 lub rezygnacja z subskrypcji:
+http://listy.samorzad.pw.edu.pl/mailman/listinfo/elka-info
+--===============0889355796==--
+
+From A.Krzemienowski@elka.pw.edu.pl Tue Mar 13 19:27:18 2012
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5]:63447 "EHLO
+	higgs.elka.pw.edu.pl" rhost-flags-OK-OK-OK-OK) by mion.elka.pw.edu.pl
+	with ESMTP id S1807364Ab2CMS1S (ORCPT
+	<rfc822;pszynkie@mion.elka.pw.edu.pl>);
+	Tue, 13 Mar 2012 19:27:18 +0100
+Received: from hadron.elka.pw.edu.pl ([194.29.160.27]:46453 "EHLO localhost")
+	by higgs.elka.pw.edu.pl with ESMTP id S26977Ab2CMS1R (ORCPT
+	<rfc822;alatosze@mion.elka.pw.edu.pl> + 9 others);
+	Tue, 13 Mar 2012 19:27:17 +0100
+X-Virus-Scanned: amavisd-new at elka.pw.edu.pl
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5])
+	by localhost (hadron.elka.pw.edu.pl [194.29.160.27]) (amavisd-new, port 2510)
+	with ESMTP id 9X50uofb4GPv; Tue, 13 Mar 2012 19:27:14 +0100 (CET)
+Received: from top.elka.pw.edu.pl ([194.29.160.11]:36149 "EHLO
+	top.elka.pw.edu.pl") by higgs.elka.pw.edu.pl with ESMTP
+	id S150785Ab2CMS0m (ORCPT <rfc822;W.Pozniak@stud.elka.pw.edu.pl>
+	+ 10 others); Tue, 13 Mar 2012 19:26:42 +0100
+Received: from studia.elka.pw.edu.pl (localhost [127.0.0.1])
+	by top.elka.pw.edu.pl (Postfix) with SMTP id 6E11A65AF3;
+	Tue, 13 Mar 2012 19:26:42 +0100 (CET)
+Content-Type: text/plain; charset="iso-8859-2"
+Subject: =?iso-8859-2?Q?Zmiana_godz._oddania_projekt=F3w?=
+From:	A.Krzemienowski@elka.pw.edu.pl
+To:	A.Latoszewski@stud.elka.pw.edu.pl,
+	L.Jendrzejek@stud.elka.pw.edu.pl, W.Pozniak@stud.elka.pw.edu.pl,
+	M.Gawkowski@stud.elka.pw.edu.pl, M.Granacki@stud.elka.pw.edu.pl,
+	M.Kramer@stud.elka.pw.edu.pl, P.Szynkiewicz@stud.elka.pw.edu.pl,
+	M.Laszkowski@stud.elka.pw.edu.pl, N.Biadun@stud.elka.pw.edu.pl,
+	K.Abramczyk@stud.elka.pw.edu.pl, A.Krzemienowski@elka.pw.edu.pl
+Message-Id: <20120313182642.6E11A65AF3@top.elka.pw.edu.pl>
+Date:	Tue, 13 Mar 2012 19:26:42 +0100 (CET)
+Content-Transfer-Encoding: quoted-printable
+Return-Path: <A.Krzemienowski@elka.pw.edu.pl>
+X-Envelope-To: <pszynkie@mion.elka.pw.edu.pl> (uid 65534)
+X-Orcpt: rfc822;pszynkie@mion.elka.pw.edu.pl
+Original-Recipient: rfc822;pszynkie@mion.elka.pw.edu.pl
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 4
+
+Drodzy Pa=F1stwo,
+
+W czwartek w godz. Waszego laboratorium (16-18) nie mog=EA by=E6 obecny. =
+W zwi=B1zku z tym prosz=EA o oddawanie projekt=F3w w terminach dw=F3ch po=
+zosta=B3ych grup, tj. 10-12 albo 18-20. Je=B6li dla kogo=B6 z Pa=F1stwa =BF=
+aden z tych termin=F3w nie jest korzystny, prosz=EA o powiadomienie do cz=
+wartku - ustal=EA inny termin.
+
+Pozdrawiam
+Adam Krzemienowski
+

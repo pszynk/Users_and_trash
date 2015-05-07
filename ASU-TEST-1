@@ -1,0 +1,106 @@
+From MAILER-DAEMON Sat Mar 10 16:20:48 2012
+Date: 10 Mar 2012 16:20:48 +0100
+From: Mail System Internal Data <MAILER-DAEMON@mion.elka.pw.edu.pl>
+Subject: DON'T DELETE THIS MESSAGE -- FOLDER INTERNAL DATA
+Message-ID: <1331392848@mion.elka.pw.edu.pl>
+X-IMAP: 1331384453 0000000002
+Status: RO
+
+This text is part of the internal format of your mail folder, and is not
+a real message.  It is created automatically by the mail system software.
+If deleted, important folder data will be lost, and it will be re-created
+with the data reset to initial values.
+
+From pszynk@gmail.com Sat Mar 10 14:05:43 2012
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5]:50169 "EHLO
+	higgs.elka.pw.edu.pl" rhost-flags-OK-OK-OK-OK) by mion.elka.pw.edu.pl
+	with ESMTP id S205570Ab2CJNFZ (ORCPT
+	<rfc822;pszynkie@mion.elka.pw.edu.pl>);
+	Sat, 10 Mar 2012 14:05:25 +0100
+Received: from hadron.elka.pw.edu.pl ([194.29.160.27]:53587 "EHLO localhost")
+	by higgs.elka.pw.edu.pl with ESMTP id S25379Ab2CJNFN (ORCPT
+	<rfc822;pszynkie@mion.elka.pw.edu.pl>);
+	Sat, 10 Mar 2012 14:05:13 +0100
+X-Virus-Scanned: amavisd-new at elka.pw.edu.pl
+Authentication-Results:	hadron.elka.pw.edu.pl (amavisd-new); dkim=pass
+	header.i=@gmail.com
+Received: from higgs.elka.pw.edu.pl ([194.29.160.5])
+	by localhost (hadron.elka.pw.edu.pl [194.29.160.27]) (amavisd-new, port 2510)
+	with ESMTP id DVnpar00sIxZ for <P.Szynkiewicz@stud.elka.pw.edu.pl>;
+	Sat, 10 Mar 2012 14:05:10 +0100 (CET)
+Received: from [194.29.160.7] ([194.29.160.7]:1023 "EHLO mezon")
+	by higgs.elka.pw.edu.pl with ESMTP id S150643Ab2CJNEG (ORCPT
+	<rfc822;P.Szynkiewicz@stud.elka.pw.edu.pl>);
+	Sat, 10 Mar 2012 14:04:06 +0100
+Received: from mail-gy0-f173.google.com ([209.85.160.173]:42803 "EHLO
+	mail-gy0-f173.google.com" smtp-auth: <none> TLS-CIPHER: <none>
+	TLS-PEER-CN1: <none>) by mezon.elka.pw.edu.pl with ESMTP
+	id S1389Ab2CJNEG (ORCPT <rfc822;P.Szynkiewicz@stud.elka.pw.edu.pl>);
+	Sat, 10 Mar 2012 14:04:06 +0100
+Received: by ghrr14 with SMTP id r14so1839808ghr.18
+        for <P.Szynkiewicz@stud.elka.pw.edu.pl>; Sat, 10 Mar 2012 05:03:27 -0800 (PST)
+DKIM-Signature:	v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=JHUDCHYz25uxqnbnlRrHxvt4Gnnd0GevDcITizXYNhQ=;
+        b=g7gHNr+tvWW33X3UZV5YSem0Hoa/SkIFvsS5YVxXbgzJnPvsUqj9d4JgG74vCP2pNb
+         OpRIgJQYlFShDvh/TfmaF0HAxplCloVV+1TJVTMci39DuHGJnirXZ0EgzJunK9VfTlLY
+         nwUk0Bd9Rdl6S2tfSn0X4BOYRASIkuHUhxJgv7qmjOI0svFphBlY3BP/gkLHpaby7Tj8
+         nUmjrQwk8Erj8Dj6IjKxmI3GAjPDe3t5BvhyIhMTAckUK5oLoylu6mjlogNtuIaGUgtH
+         jMQN9eWwzjLNynWb/58rtW8kCSDxYbDyAIA07Ks7H0B9holXEoEqB284V8DU8ceD9cKF
+         Tg/A==
+MIME-Version: 1.0
+Received: by 10.224.106.131 with SMTP id x3mr2049974qao.23.1331384607225; Sat,
+ 10 Mar 2012 05:03:27 -0800 (PST)
+Sender:	pszynk@gmail.com
+Received: by 10.229.218.193 with HTTP; Sat, 10 Mar 2012 05:03:27 -0800 (PST)
+In-Reply-To: <CAOG4Arsp_JrrqxX4G5nTST7YuyhaW0Y8S9gADp7L+0KwGqO3Qg@mail.gmail.com>
+References: <CAOG4Arsp_JrrqxX4G5nTST7YuyhaW0Y8S9gADp7L+0KwGqO3Qg@mail.gmail.com>
+Date:	Sat, 10 Mar 2012 14:03:27 +0100
+X-Google-Sender-Auth: 1PjpsoFutUqZkn5Oqz55cmMGVHo
+Message-ID: <CAOG4ArvBtob0AB+TE2paHt8WjtKS7KnK3eKMMirKwaFAe4Jnew@mail.gmail.com>
+Subject: =?ISO-8859-2?Q?Fwd=3A_=5BTEST=5D_wiadomo=B6=E6_testowa?=
+From:	=?ISO-8859-2?Q?Pawe=B3_Szynkiewicz?= 
+	<P.Szynkiewicz@stud.elka.pw.edu.pl>
+To:	P.Szynkiewicz@stud.elka.pw.edu.pl
+Content-Type: multipart/alternative; boundary=20cf3074b41a92b87304bae32258
+Return-Path: <pszynk@gmail.com>
+X-Envelope-To: <pszynkie@mion.elka.pw.edu.pl> (uid 65534)
+X-Orcpt: rfc822;pszynkie@mion.elka.pw.edu.pl
+Original-Recipient: rfc822;pszynkie@mion.elka.pw.edu.pl
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 1
+
+--20cf3074b41a92b87304bae32258
+Content-Type: text/plain; charset=ISO-8859-2
+Content-Transfer-Encoding: quoted-printable
+
+---------- Wiadomo=B6=E6 przekazana dalej ----------
+Od: Pawe=B3 Szynkiewicz <P.Szynkiewicz@stud.elka.pw.edu.pl>
+Data: 10 marca 2012 13:53
+Temat: [TEST] wiadomo=B6=E6 testowa
+Do: pszynkie@stud.elka.pw.edu.pl
+
+
+testowa wiadomo=B6=E6 nr 1.
+fraza: wombat
+
+--20cf3074b41a92b87304bae32258
+Content-Type: text/html; charset=ISO-8859-2
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div class=3D"gmail_quote">---------- Wiadomo=B6=E6 przekazana dale=
+j ----------<br>Od: <b class=3D"gmail_sendername">Pawe=B3 Szynkiewicz</b> <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:P.Szynkiewicz@stud.elka.pw.edu.pl">P=
+.Szynkiewicz@stud.elka.pw.edu.pl</a>&gt;</span><br>
+Data: 10 marca 2012 13:53<br>Temat: [TEST] wiadomo=B6=E6 testowa<br>Do: <a =
+href=3D"mailto:pszynkie@stud.elka.pw.edu.pl">pszynkie@stud.elka.pw.edu.pl</=
+a><br><br><br>testowa wiadomo=B6=E6 nr 1.<div>fraza: wombat</div>
+</div><br>
+
+--20cf3074b41a92b87304bae32258--
+
+

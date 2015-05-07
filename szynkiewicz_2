@@ -1,0 +1,222 @@
+#!/bin/bash
+
+set -o nounset
+
+DEFAULT_PREFIX="default"
+DEFAULT_FORMAT="default"
+
+__BOLD=$(tput bold)
+__UNDERLINE=$(tput sgr 0 1)
+__NORMAL=$(tput sgr0)
+__COLOR_RED=$(tput setaf 1)
+__COLOR_BLUE=$(tput setaf 4)
+__COLOR_WHITE=$(tput setaf 7)
+
+GOOD_STYLE=${__BOLD}${__COLOR_BLUE}
+ERROR_STYLE=${__BOLD}${__UNDERLINE}${__COLOR_RED}
+NORMAL_STYLE=${__NORMAL}${__COLOR_WHITE}
+
+
+_print_help_msg() {
+# wypisuje pomoc
+cat << EOF
+
+
+_mytree_ pomoc:
+
+    mytree [opcje] folder1 [folder...]
+
+    OPCJE:
+
+      -f file       przekieruj wyjscie do pliku
+      -h, --help    wypisuje wiadomość pomocniczą
+EOF
+}
+
+# parsowanie opcji i argumentow
+
+# opcje:
+#   krótkie: f, h, i, r, v
+#   długie: help
+
+# ZMIENNE
+# czy należy wypisać pomoc?
+NEED_HELP=false
+
+# czy tryb force
+COLOR_SET=false
+
+# czy tryb all
+ALL_SET=false
+
+# czy wypisywac do pliku
+OUTPUT_SET=false
+
+# gdzie wypisywac info
+OUTPUT_FILE="-"
+
+
+# status obslugi parametrow, opcji
+#   0 -> no error
+#   1 -> unknow long option
+#   2 -> no argument for long option
+#   3 -> unknow short option
+#   4 -> no argument for long option
+# 255 -> unknown getopts error
+OPTIONS_ERR=0
+
+optspec=":f:h-:"
+
+while getopts "$optspec" optchar; do
+    case "${optchar}" in
+        # mozliwe ze dluga opcja
+        -)
+            case "${OPTARG}" in
+                help)
+                    NEED_HELP=true
+                    ;;
+                *)
+                    if [ "$OPTERR" != 1 ] || [ "${optspec:0:1}" = ":" ]; then
+                        echo "Unknown option --${OPTARG}" >&2
+                    fi
+                    NEED_HELP=true
+                    let "OPTIONS_ERR = OPTIONS_ERR | 1"
+                    ;;
+            esac;;
+
+        a)
+            echo "Parsing option: '-${optchar}'" >&2
+            ALL_SET=true
+            ;;
+        c)
+            echo "Parsing option: '-${optchar}'" >&2
+            COLOR_SET=true
+            ;;
+
+        f)
+            echo "usage: $0 -f plik" >&2
+            OUTPUT_SET=true
+            OUTPUT_FILE=$OPTARG
+            ;;
+        h)
+            echo "Parsing option: '-${optchar}'" >&2
+            NEED_HELP=true
+            ;;
+        \?)
+            if [ "$OPTERR" != 1 ] || [ "${optspec:0:1}" = ":" ]; then
+                echo "Unknown option -${OPTARG}" >&2
+            fi
+
+            let "OPTIONS_ERR = OPTIONS_ERR | 4"
+            ;;
+        :)
+            if [ "$OPTERR" != 1 ] || [ "${optspec:0:1}" = ":" ]; then
+                echo "No argument passed: -${OPTARG} [arg]" >&2
+            fi
+
+            let "OPTIONS_ERR = OPTIONS_ERR | 8"
+            ;;
+        *)
+            echo "CRITIC getopts ERROR"
+
+            let "OPTIONS_ERR = OPTIONS_ERR | 128"
+            ;;
+    esac
+done
+
+# przesuń sie do argumentów (pliki do usunięcia)
+shift $((OPTIND-1))
+
+# jeżeli nie podano żadnych plików, oraz nie proszono o pomoc do BŁĄD!
+if ! $NEED_HELP ; then
+    START_DIRS=${@:-"."}
+fi
+
+# jeżeli podano plik z opcją -o to przekieruj tam stdout
+if $OUTPUT_SET ; then
+    if [ ${OUTPUT_FILE} != "-" ] ; then
+        echo "sprobuj przekierowac"
+        if err_msg=`touch $OUTPUT_FILE 2>&1` ; then
+            exec 1> $OUTPUT_FILE 2>&1
+        else
+            echo "Cant write to file ${OUTPUT_FILE}:${err_msg##*\`${OUTPUT_FILE}\':}" >&2
+            let "OPTIONS_ERR = OPTIONS_ERR | 32"
+        fi
+    fi
+fi
+
+# jeżeli podano złe opcje to potrzebna pomoc
+if [ $OPTIONS_ERR -ne 0 ] ; then
+    NEED_HELP=true
+fi
+
+# potrzebna pomoc? wydrukuj!
+if $NEED_HELP ; then
+    _print_help_msg
+    exit 1
+fi
+
+# błąd przy opcjach uruchamiania? przerwij skrypt
+if [ $OPTIONS_ERR -gt 0 ] ; then
+    exit 1
+fi
+
+
+first=true
+base=`pwd`
+for start in $START_DIRS; do
+
+    if ! $first; then
+        echo ""
+        echo "----------------------------------------------------"
+        echo ""
+    fi
+    first=false
+
+    # sprawdz czy mozna operowac na folderze
+    # czy istnieje i jest folderem
+    if ! [ -d $start ]; then
+        echo "mytree: Error $start is not a directory" >&2
+        echo "" >&2
+        continue
+    fi
+
+    # czy moze byc czytany
+    if ! [ -r $start ]; then
+        echo "mytree: Error $start cannot be read" >&2
+        echo "" >&2
+        continue
+    fi
+
+    if ! $first; then
+        first=false
+    fi
+
+    echo "$start"
+    cd "$start"
+
+    find . -type d -print 2>/dev/null | \
+        awk 'BEGIN {depth=0; space=0}
+             !/\.$/ {
+                if (NF < depth)
+                    space=1;
+                depth=NF
+                for (j=0; j<=space; j++)
+                {
+                    for (i=1; i<NF; i++)
+                    {
+                        d=length($i);
+                        if ( d < 5  && i != 1 )
+                            d=5;
+
+                        printf("%"d"s","|");
+                    }
+                    if (j!=space)
+                        printf("\n");
+                }
+                space=0;
+                print "---"$NF;
+            }'  FS='/'
+
+    cd "$base"
+done

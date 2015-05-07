@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir Folder1
+mkdir Folder2
+mkdir Folder3
+
